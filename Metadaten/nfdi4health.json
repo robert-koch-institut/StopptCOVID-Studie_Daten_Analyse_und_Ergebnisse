@@ -1,0 +1,174 @@
+{
+  "resource": {
+    "classification": {
+      "type": "Dataset"
+    },
+    "collection": [
+      "Robert Koch Institute"
+    ],
+    "descriptions": [
+      {
+        "language": "DE (German)",
+        "text": "Die getroffenen Maßnahmen zur Kontrolle von Severe Acute Respiratory Syndrome Coronavirus Type 2 (SARS-CoV-2) haben während der Coronavirus Disease 2019-(COVID-19-) Pandemie zu starken Einschränkungen des öffentlichen Lebens in Deutschland geführt. Das übergeordnete Ziel des Projekts \"StopptCOVID\" bestand darin, die Evidenzgrundlage für die Beurteilung der Effektivität verschiedener antipandemischer, nicht-pharmazeutischer Maßnahmen (NPI) zu verbessern. Dabei war die Frage, inwiefern verordnete Maßnahmen einen Anstieg der COVID-19-Inzidenz bremsen konnten. An dieser Stelle veröffentlichen wir Daten und Code für die Analyse der NPI in Deutschland."
+      }
+    ],
+    "titles": [
+      {
+        "language": "DE (German)",
+        "text": "StopptCOVID-Studie - Daten, Analyse und Ergebnisse"
+      }
+    ],
+    "ids": [
+      {
+        "identifier": "10.5281/zenodo.10888033",
+        "typeGeneral": "Dataset",
+        "relationType": "A references B",
+        "scheme": "DOI"
+      },
+      {
+        "identifier": "https://github.com/robert-koch-institut/StopptCOVID-Studie_Daten_Analyse_und_Ergebnisse",
+        "relationType": "A references B",
+        "typeGeneral": "Dataset",
+        "scheme": "URL"
+      }
+    ],
+    "provenance": {
+      "dataSource": "Automatically uploaded: Other"
+    },
+    "keywords": [
+      {
+        "label": "COVID-19",
+        "code": "D000086382"
+      },
+      {
+        "label": "SARS-CoV-2",
+        "code": "D000086402"
+      },
+      {
+        "label": "Infektion",
+        "code": "D007239"
+      },
+      {
+        "label": "Infections",
+        "code": "D007239"
+      },
+      {
+        "label": "Gesundheitsberichterstattung",
+        "code": "D062486"
+      },
+      {
+        "label": "Public Health Surveillance",
+        "code": "D062486"
+      },
+      {
+        "label": "Epidemiologie",
+        "code": "info:ddc/22/de//614.4"
+      },
+      {
+        "label": "Epidemiology",
+        "code": "info:ddc/22/de//614.4"
+      },
+      {
+        "label": "Statistische Modelle",
+        "code": "D015233"
+      },
+      {
+        "label": "Statistical Models",
+        "code": "D015233"
+      },
+      {
+        "label": "Prevention and Control",
+        "code": "Q000517"
+      },
+      {
+        "label": "Nicht-pharmazeutische Interventionen"
+      },
+      {
+        "label": "Non-pharmaceutical interventions"
+      },
+      {
+        "label": "NPI"
+      },
+      {
+        "label": "Öffentliche Gesundheit und Sozialmaßnahmen"
+      },
+      {
+        "label": "Public health and social measures"
+      },
+      {
+        "label": "PHSM"
+      },
+      {
+        "label": "Offene Daten"
+      },
+      {
+        "label": "OpenData"
+      },
+      {
+        "label": "Deutschland"
+      },
+      {
+        "label": "Germany"
+      },
+      {
+        "label": "RKI"
+      }
+    ],
+    "languages": [
+      "DE (German)"
+    ],
+    "nonStudyDetails": {
+      "useRights": {
+        "confirmations": {
+          "authority": true,
+          "irrevocability": true,
+          "terms": true,
+          "supportByLicensing": true
+        },
+        "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
+      },
+      "version": "2024-03-28"
+    },
+    "webpage": "https://robert-koch-institut.github.io/StopptCOVID-Studie_-_Daten,_Analyse_und_Ergebnisse",
+    "contributors": [
+      {
+        "affiliations": [
+          {
+            "name": "Robert Koch-Institut"
+          }
+        ],
+        "nameType": "Personal",
+        "personal": {
+          "type": "Creator/Author",
+          "givenName": "Andreas",
+          "familyName": "Hicketier",
+          "identifiers": [
+            {
+              "identifier": "0009-0000-5882-852X",
+              "scheme": "ORCID"
+            }
+          ]
+        }
+      },
+      {
+        "affiliations": [
+          {
+            "name": "Robert Koch-Institut"
+          }
+        ],
+        "nameType": "Personal",
+        "personal": {
+          "type": "Creator/Author",
+          "givenName": "Matthias",
+          "familyName": "an der Heiden",
+          "identifiers": [
+            {
+              "identifier": "0000-0001-5863-4549",
+              "scheme": "ORCID"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

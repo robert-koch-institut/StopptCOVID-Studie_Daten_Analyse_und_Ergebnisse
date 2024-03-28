@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+type: dataset
+title: StopptCOVID-Studie - Daten, Analyse und Ergebnisse
+abstract: >-
+  Die getroffenen Maßnahmen zur Kontrolle von Severe Acute Respiratory Syndrome
+  Coronavirus Type 2 (SARS-CoV-2) haben während der Coronavirus Disease
+  2019-(COVID-19-) Pandemie zu starken Einschränkungen des öffentlichen Lebens
+  in Deutschland geführt. Das übergeordnete Ziel des Projekts
+  &quot;StopptCOVID&quot; bestand darin, die Evidenzgrundlage für die
+  Beurteilung der Effektivität verschiedener antipandemischer,
+  nicht-pharmazeutischer Maßnahmen (NPI) zu verbessern. Dabei war die Frage,
+  inwiefern verordnete Maßnahmen einen Anstieg der COVID-19-Inzidenz bremsen
+  konnten. An dieser Stelle veröffentlichen wir Daten und Code für die Analyse
+  der NPI in Deutschland.
+date-released: '2024-03-28'
+keywords:
+  - COVID-19
+  - SARS-CoV-2
+  - Infektion
+  - Infections
+  - Gesundheitsberichterstattung
+  - Public Health Surveillance
+  - Epidemiologie
+  - Epidemiology
+  - Statistische Modelle
+  - Statistical Models
+  - Prevention and Control
+  - Nicht-pharmazeutische Interventionen
+  - Non-pharmaceutical interventions
+  - NPI
+  - Öffentliche Gesundheit und Sozialmaßnahmen
+  - Public health and social measures
+  - PHSM
+  - Offene Daten
+  - OpenData
+  - Deutschland
+  - Germany
+  - RKI
+message: Cite me!
+url: >-
+  https://robert-koch-institut.github.io/StopptCOVID-Studie_-_Daten,_Analyse_und_Ergebnisse
+license: CC-BY-4.0
+doi: 10.5281/zenodo.10888033
+version: '2024-03-28T19:21:46+01:00'
+authors:
+  - family-names: Hicketier
+    given-names: Andreas
+    affiliation: Robert Koch-Institut
+    orcid: 0009-0000-5882-852X
+    email: hicketiera@rki.de
+  - family-names: an der Heiden
+    given-names: Matthias
+    affiliation: Robert Koch-Institut
+    orcid: 0000-0001-5863-4549
