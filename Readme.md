@@ -15,7 +15,9 @@
 
 
 **Zitieren**  
-Hicketier A und an der Heiden M (2024): StopptCOVID-Studie - Daten, Analyse und Ergebnisse. Berlin: Zenodo. [DOI: 10.5281/zenodo.10888033](https://doi.org/10.5281/zenodo.10888033)  
+<!-- CITATION_START: {"citation_style": "apa"} -->
+Hicketier, A., & an der Heiden, M. (2024). StopptCOVID-Studie - Daten, Analyse und Ergebnisse [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.10888033](https://doi.org/10.5281/zenodo.10888033)
+<!-- CITATION_END -->
 
 -----
 
