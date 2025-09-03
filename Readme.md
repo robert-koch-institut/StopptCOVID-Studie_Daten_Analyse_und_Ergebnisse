@@ -2,22 +2,50 @@
   <img src="https://robert-koch-institut.github.io/SARS-CoV-2-Infektionen_in_Deutschland/assets/RKI_Logo.png" style="width: auto; height: 60px;">
 </p>
 
+<!-- HEADER_START: {"lang": "de"} -->
+
+
+Dokumentation  
 # StopptCOVID-Studie - Daten, Analyse und Ergebnisse
-<br>
-<br>
 
-[Andreas Hicketier](https://orcid.org/0009-0000-5882-852X)<sup>1</sup> und [Matthias an der Heiden](https://orcid.org/0000-0001-5863-4549)<sup>2</sup>
+<br> 
+<br> 
+<br> 
 
-&emsp;<sup>1</sup> [Robert Koch-Institut](https://rki.de)</sup> | Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD-Kontaktstelle  
-&emsp;<sup>2</sup> [Robert Koch-Institut](https://rki.de)</sup> | Fachgebiet 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen
-<br>
+[**Andreas Hicketier**](https://orcid.org/0009-0000-5882-852X)&sup1;, & [**Matthias an der Heiden**](https://orcid.org/0000-0001-5863-4549)&sup2;
+
+<br> 
 
 
+
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 32](https://www.rki.de/fg32)  
+&emsp;&emsp;&sup2; [Robert Koch-Institut](https://www.rki.de/) | [Fachgebiet 34](https://www.rki.de/fg34)
+
+<br> 
 
 **Zitieren**  
-<!-- CITATION_START: {"citation_style": "apa"} -->
 Hicketier, A., & an der Heiden, M. (2024). StopptCOVID-Studie - Daten, Analyse und Ergebnisse [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.10888033](https://doi.org/10.5281/zenodo.10888033)
-<!-- CITATION_END -->
+
+<br>
+
+
+**Zusammenfassung**    
+Die Studie "StopptCOVID" des Robert Koch-Instituts untersuchte die Wirksamkeit nicht-pharmazeutischer Interventionen (NPI) zur Eindämmung der COVID-19-Pandemie in Deutschland. Ziel war es, die Evidenzgrundlage für politische Entscheidungen während der Pandemie zu verbessern. Grundlage der Analyse ist ein umfassender Datensatz, der COVID-19-Meldedaten nach Erkrankungsbeginn, Bevölkerungsdaten, Impfquoten, SARS-CoV-2-Varianten sowie tagesgenaue NPI-Daten auf Landkreisebene integriert. Die bereitgestellten R-Skripte ermöglichen eine Reproduktion der Ergebnisse und umfassen deskriptive Auswertungen, Modellentwicklung sowie Sensitivitätsanalysen. Die Studie zeigt eine zeitlich verzögerte, signifikante Wirkung der Maßnahmen auf den R-Wert.
+
+<br>
+
+**Inhaltsverzeichnis** 
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [Informationen zum Projekt und Entstehungskontext](#informationen-zum-projekt-und-entstehungskontext)
+  - [Daten und Datenauswertung](#daten-und-datenauswertung)
+  - [Inhalt und Aufbau der bereitgestellten Daten](#inhalt-und-aufbau-der-bereitgestellten-daten)
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+<!-- TOC_END -->
+
+<br>
+
+<!-- HEADER_END -->
+
 
 -----
 
@@ -36,8 +64,8 @@ Im vorliegenden Datensatz werden die Daten, Analysen und Ergebnisse der StopptCO
 
 ### Administrative und Organisatorische Angaben   
 
-Die Erhebung, Analyse und Bereitstellung der Daten erfolgt durch [Fachgebiet 32 | Surveillance | ÖGD-Kontaktstelle](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html) und [Fachgebiet 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG34/fg34-hiv-aids-und-andere-sexuell-oder-durch-blut-uebertragbare-infektionen-node.html) des RKI. Inhaltliche Fragen bezüglich der StopptCOVID-Studie können an das RKI unter [info@rki.de](mailto:info@rki.de) gestellt werden.  
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).  
+Die Erhebung, Analyse und Bereitstellung der Daten erfolgt durch [Fachgebiet 32 | Surveillance | ÖGD-Kontaktstelle](https://www.rki.de/fg32) und [Fachgebiet 34 | HIV/AIDS und andere sexuell oder durch Blut übertragbare Infektionen](https://www.rki.de/fg34) des RKI. Inhaltliche Fragen bezüglich der StopptCOVID-Studie können an das RKI unter [info@rki.de](mailto:info@rki.de) gestellt werden.  
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-)Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/mf4). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).  
 
 ## Daten und Datenauswertung
 
@@ -228,19 +256,6 @@ In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch d
   ],
 ```    
 
-
-Zusätzlich beschreiben wir tabellarische Daten mithilfe des [Data Package Standards](https://datapackage.org/).
-Ein Data Package ist eine strukturierte Sammlung von Daten und zugehörigen Metadaten, die den Austausch und die Wiederverwendung von Daten erleichtert. Es besteht aus einer datapackage.json-Datei, die zentrale Informationen wie die enthaltenen Ressourcen, ihre Formate und Schema-Definitionen beschreibt.
-
-Der Data Package Standard wird von der [Open Knowledge Foundation](https://okfn.org/) bereitgestellt und ist ein offenes Format, das eine einfache, maschinenlesbare Beschreibung von Datensätzen ermöglicht.
-
-Die Liste der in diesem Repository enthaltenen Daten ist in folgender Datei hinterlegt:
-
-> [datapackage.json](https://github.com/robert-koch-institut/StopptCOVID-Studie_Daten_Analyse_und_Ergebnisse/tree/main/datapackage.json)
-
-Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://datapackage.org/standard/table-schema/), das die Struktur der Tabellen beschreibt, einschließlich Spaltennamen, Datentypen und Validierungsregeln. Diese Schema-Dateien finden sich unter:
-
-> [Metadaten/schemas/](https://github.com/robert-koch-institut/StopptCOVID-Studie_Daten_Analyse_und_Ergebnisse/tree/main/Metadaten/schemas) 
 
 
 
