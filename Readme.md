@@ -6,6 +6,7 @@
 
 
 Dokumentation  
+
 # StopptCOVID-Studie - Daten, Analyse und Ergebnisse
 
 <br> 
@@ -24,22 +25,25 @@ Dokumentation
 <br> 
 
 **Zitieren**  
+<!-- CITATION_START: {"citation_style": "apa"} -->  
 Hicketier, A., & an der Heiden, M. (2024). StopptCOVID-Studie - Daten, Analyse und Ergebnisse [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.10888033](https://doi.org/10.5281/zenodo.10888033)
+<!-- CITATION_END -->
+
 
 <br>
-
 
 **Zusammenfassung**    
 Die Studie "StopptCOVID" des Robert Koch-Instituts untersuchte die Wirksamkeit nicht-pharmazeutischer Interventionen (NPI) zur Eindämmung der COVID-19-Pandemie in Deutschland. Ziel war es, die Evidenzgrundlage für politische Entscheidungen während der Pandemie zu verbessern. Grundlage der Analyse ist ein umfassender Datensatz, der COVID-19-Meldedaten nach Erkrankungsbeginn, Bevölkerungsdaten, Impfquoten, SARS-CoV-2-Varianten sowie tagesgenaue NPI-Daten auf Landkreisebene integriert. Die bereitgestellten R-Skripte ermöglichen eine Reproduktion der Ergebnisse und umfassen deskriptive Auswertungen, Modellentwicklung sowie Sensitivitätsanalysen. Die Studie zeigt eine zeitlich verzögerte, signifikante Wirkung der Maßnahmen auf den R-Wert.
 
 <br>
 
-**Inhaltsverzeichnis** 
+**Inhaltsverzeichnis**  
+
 <!-- TOC_START: {"heading_depth": 2} -->
-  - [Informationen zum Projekt und Entstehungskontext](#informationen-zum-projekt-und-entstehungskontext)
-  - [Daten und Datenauswertung](#daten-und-datenauswertung)
-  - [Inhalt und Aufbau der bereitgestellten Daten](#inhalt-und-aufbau-der-bereitgestellten-daten)
-  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+  - [Informationen zum Projekt und Entstehungskontext](#informationen-zum-projekt-und-entstehungskontext)  
+  - [Daten und Datenauswertung](#daten-und-datenauswertung)  
+  - [Inhalt und Aufbau der bereitgestellten Daten](#inhalt-und-aufbau-der-bereitgestellten-daten)  
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)  
 <!-- TOC_END -->
 
 <br>
@@ -55,7 +59,7 @@ Die getroffenen Maßnahmen zur Kontrolle von Severe Acute Respiratory Syndrome C
 
 Das StopptCOVID-Gesamtprojekt bestand aus zwei sich ergänzenden Teilprojekten, die mit unterschiedlichen Methoden durchgeführt wurden: Die CoViRiS-Fallkontrollstudie (Corona-Virus Risiko- und Schutzfaktoren im Alltag in Deutschland) und die StopptCOVID Analyse.  
 
-Zusätzlich wurde durch die Universität Bielefeld der „Covid-19 Pandemic Policy Monitor“ (COV-PPM) erstellt, der die NPI auf europäischer Ebene dokumentiert. In einer weiteren Analyse wurde von der Universität Bielefeld der Zusammenhang zwischen dem Deprivationsscore sowie dem Anteil der ausländischen Bevölkerung und der COVID-19-Inzidenz auf Ebene der Kreise in Deutschland untersucht.  
+Zusätzlich wurde durch die Universität Bielefeld der "Covid-19 Pandemic Policy Monitor" (COV-PPM) erstellt, der die NPI auf europäischer Ebene dokumentiert. In einer weiteren Analyse wurde von der Universität Bielefeld der Zusammenhang zwischen dem Deprivationsscore sowie dem Anteil der ausländischen Bevölkerung und der COVID-19-Inzidenz auf Ebene der Kreise in Deutschland untersucht.  
 
 Im vorliegenden Datensatz werden die Daten, Analysen und Ergebnisse der StopptCOVID-Studie zur Wirksamkeit NPI in Deutschland bereitgestellt. Der Datensatz bezieht sich direkt auf den vom RKI publizierten Abschlussbericht: "[Wirksamkeit und Wirkung von anti-epidemischen Maßnahmen auf die COVID-19-Pandemie in Deutschland (StopptCOVID-Studie)](https://doi.org/10.25646/12007.2)".  
 
@@ -79,7 +83,7 @@ Für die Auswertung wurde insbesondere die Dauer zwischen dem Inkrafttreten von 
 
 Eine Übersicht und Beschreibung der erstellten R-Skripte befindet sich im Abschnitt [Datenauswertung](https://github.com/robert-koch-institut/StopptCOVID-Studie_Daten_Analyse_und_Ergebnisse?tab=readme-ov-file#Datenauswertung).  
 
-![Datenfluss der StopptCOVID-Studie](https://github.com/robert-koch-institut/StopptCOVID-Studie_Daten_Analyse_und_Ergebnisse/blob/main/.github/pictures/StopptCOVID-Studie_Datenfluss.png?raw=ture "Datenfluss der StopptCOVID-Studie")
+![Datenfluss der StopptCOVID-Studie](https://github.com/robert-koch-institut/StopptCOVID-Studie_Daten_Analyse_und_Ergebnisse/blob/main/.github/pictures/StopptCOVID-Studie_Datenfluss.png?raw=true "Datenfluss der StopptCOVID-Studie")
 
 ### Datenquellen und Datenaufbereitung  
 
@@ -141,7 +145,7 @@ In der folgenden Tabelle ist eine Übersicht über die Skripte der deskriptiven 
 
 |Datei|Aufgabe|Beschreibung|Erzeugt folgende Abbildungen im Abschlussbericht|
 | :- | :- | :- | :- |
-|[`corelation_matrix_main.R`](https://github.com/robert-koch-institut/StopptCOVID-Studie_Daten_Analyse_und_Ergebnisse/blob/main/Skripte/corelation_matrix_main.R)|Deskriptive Statistiken|Berechnet die Korrelationsmatrix der NPI Aktivitätsprofile|Abb. 6-8|
+|[`correlation_matrix_main.R`](https://github.com/robert-koch-institut/StopptCOVID-Studie_Daten_Analyse_und_Ergebnisse/blob/main/Skripte/correlation_matrix_main.R)|Deskriptive Statistiken|Berechnet die Korrelationsmatrix der NPI Aktivitätsprofile|Abb. 6-8|
 |[`describe_data.R`](https://github.com/robert-koch-institut/StopptCOVID-Studie_Daten_Analyse_und_Ergebnisse/blob/main/Skripte/describe_data.R)|Deskriptive Statistiken|Beschreibt die Daten|Abb. 4-5, 9-15|
 |[`optim_lag_vacc.R`](https://github.com/robert-koch-institut/StopptCOVID-Studie_Daten_Analyse_und_Ergebnisse/blob/main/Skripte/optim_lag_vacc.R)|Analyse|Analysiert den Verzug zwischen dem Datum der 1. und 2. Impfung und ihrer Wirkung auf den R-Wert|Abb. 21|
 |[`optim_lag_npi.R`](https://github.com/robert-koch-institut/StopptCOVID-Studie_Daten_Analyse_und_Ergebnisse/blob/main/Skripte/optim_lag_npi.R)|Analyse|Analysiert den Verzug zwischen dem Inkrafttreten von Verordnungen zu NPI und deren Wirkung auf den R-Wert|Abb. 16-20|
@@ -201,11 +205,11 @@ Die Variablen und Variablenausprägungsengen der [`GENESIS-Online_Bevoelkerung_K
 |Bevölkerung|natürliche Zahl|`≥0`|Anzahl der Einwohner nach Landkreis und Altersgruppe|  
 
 #### Formatierung der Daten  
-Die Daten sind im Datensatz als semikolon-separierte .csv Datei enthalten. Der verwendete Zeichensatz der CSV-Dateien ist UTF-8. Trennzeichen der einzelnen Werte ist ein Semikolon “;”. Datumsangaben sind im ISO8601 Standard formatiert.  
+Die Daten sind im Datensatz als semikolon-separierte .csv Datei enthalten. Der verwendete Zeichensatz der CSV-Dateien ist UTF-8. Trennzeichen der einzelnen Werte ist ein Semikolon ";". Datumsangaben sind im ISO8601 Standard formatiert.  
 
 - Zeichensatz: UTF-8  
-- CSV-Trennzeichen: Semikolon “;”  
-- Kennzeichnung fehlender Werte: „NA  
+- CSV-Trennzeichen: Semikolon ";"  
+- Kennzeichnung fehlender Werte: "NA  
  
 ### Skripte  
 Die R-Skripte für die gesamte Reproduktion der Analysen sind im Datensatz im Ordner [`Skripte`](https://github.com/robert-koch-institut/StopptCOVID-Studie_Daten_Analyse_und_Ergebnisse/tree/main/Skripte) bereitgestellt.  
@@ -231,15 +235,13 @@ Die bereitgestellten R-Skripte lassen sich grob in drei Aufgaben-Bereiche eintei
    
 <!-- FOOTER_START: {"lang": "de"} -->
 
-
-
 ### Metadaten  
 
 Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
 > [Metadaten/](https://github.com/robert-koch-institut/StopptCOVID-Studie_Daten_Analyse_und_Ergebnisse/tree/main/Metadaten/) 
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/StopptCOVID-Studie_Daten_Analyse_und_Ergebnisse/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/StopptCOVID-Studie_Daten_Analyse_und_Ergebnisse/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter [https://developers.zenodo.org/#representation](https://developers.zenodo.org/#representation) nachlesbar.
  
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/StopptCOVID-Studie_Daten_Analyse_und_Ergebnisse/blob/main/Metadaten/zenodo.json)  
 
@@ -250,8 +252,8 @@ In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch d
     {
       "start": "2023-09-11T15:00:21+02:00",
       "end": "2023-09-11T15:00:21+02:00",
-      "type": "Collected",
-      "description": "Date when the Dataset was created"
+      "type": "Created",
+      "description": "Date when the published data was created"
     }
   ],
 ```    
@@ -263,11 +265,13 @@ In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch d
 
 Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
 
-- https://zenodo.org/communities/robertkochinstitut  
-- https://github.com/robert-koch-institut  
-- https://gitlab.opencode.de/robert-koch-institut  
-- https://edoc.rki.de/  
- 
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)  
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)  
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)  
+- [https://edoc.rki.de/](https://edoc.rki.de/) 
+
+
+
 ### Lizenz  
 
 Der Datensatz "StopptCOVID-Studie - Daten, Analyse und Ergebnisse" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
